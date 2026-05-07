@@ -35,7 +35,7 @@ jobs:
             target: arm_cortex-a15_neon-vfpv4
           - version: openwrt-25.12
             target: mips_24kc
-          - version: openwrt-25.12
+          - version: openwrt-24.10.6
             target: mipsel_24kc
           - version: openwrt-25.12
             target: arm_cortex-a7_neon-vfpv4
