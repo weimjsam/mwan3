@@ -20,8 +20,6 @@ jobs:
       matrix:
         include:
           - version: openwrt-25.12
-            target: x86_64
-          - version: openwrt-25.12
             target: aarch64_cortex-a53
           - version: openwrt-25.12
             target: aarch64_cortex-a76
@@ -33,10 +31,8 @@ jobs:
             target: arm_cortex-a9
           - version: openwrt-25.12
             target: mips_24kc
-          - version: openwrt-24.10.6
-            target: mipsel_24kc
           - version: openwrt-25.12
-            target: arm_cortex-a7_neon-vfpv4
+            target: mipsel_24kc
 
     steps:
       - name: Checkout repo
