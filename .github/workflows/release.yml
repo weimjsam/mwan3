@@ -19,19 +19,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - version: openwrt-25.12
+          - version: openwrt-24.10
             target: aarch64_cortex-a53
-          - version: openwrt-25.12
-            target: aarch64_cortex-a76
-          - version: openwrt-25.12
-            target: aarch64_generic
-          - version: openwrt-25.12
-            target: arm_cortex-a7
-          - version: openwrt-25.12
-            target: arm_cortex-a9
-          - version: openwrt-25.12
-            target: mips_24kc
-          - version: openwrt-25.12
+          - version: openwrt-24.10
             target: mipsel_24kc
 
     steps:
